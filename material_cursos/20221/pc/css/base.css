@@ -1,0 +1,22 @@
+div.content { 
+    margin-left: auto;
+    margin-right: auto;    
+    width: 540px  
+}
+
+.topnav { 
+    margin-left: auto;
+    margin-right: auto;    
+    width: 700px;
+    height: 50px
+}
+
+.texto {
+    background-color:white;
+    color:black;
+    margin: 20px;
+    padding: 20px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto
+  }
