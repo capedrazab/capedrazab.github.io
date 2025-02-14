@@ -11,7 +11,7 @@
             color: #1d1d1f;
             margin: 0;
             padding: 20px;
-            text-align: center;
+            text-align: left;
         }
         .topnav {
             display: flex;
@@ -34,15 +34,39 @@
             font-weight: bold;
             color: #000;
         }
-        .container {
+        /* .container {
             max-width: 800px;
             margin: 40px auto;
             padding: 20px;
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: left;  /* Ensures left alignment */
+            text-align: left;
+        } */
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
+        .profile-info {
+            margin-left: 20px;
+        }
+
+        .social-links img {
+            width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+
         h4 {
             font-size: 20px;
             font-weight: 600;
@@ -74,25 +98,25 @@
 
 
     <div class="container">
-        <img src="/api/placeholder/200/280" alt="">
+        <img src="images/foto_cpb_lowres.jpg" alt="">
         <div class="profile-info">
             <h1>César Pedraza Bonilla</h1>
-            <h2>Associate Professor</h2>
+            <h4>Associate Professor</h4>
             <p><strong>Systems and Industrial Engineering Department</strong></p>
             <p>Engineering Faculty</p>
-            <p>Universidad Nacional de Colombia, Bogotá</p>
+            <p><strong>Universidad Nacional de Colombia, Bogotá</strong></p>
             <p>Office 112 Edif. 453 (Aulas de Ingeniería)</p>
             <p>Phone: (571)3165000 ext 14076</p>
             <p>capedrazab(at)unal.edu.co</p>
             <div class="social-links">
                 <a href="https://scholar.google.es/citations?hl=es&user=uC420b0AAAAJ&view_op=list_works&sortby=pubdate">
-                    <img src="/api/placeholder/132/30" alt="Google Scholar">
+                    <img src="images/scholar.png" alt="Google Scholar">
                 </a>
                 <a href="https://www.linkedin.com/in/césar-pedraza-bonilla-502b894a/">
-                    <img src="/api/placeholder/99/30" alt="LinkedIn">
+                    <img src="images/linkedin.png" alt="LinkedIn">
                 </a>
                 <a href="https://www.instagram.com/cesarpedrazab/">
-                    <img src="/api/placeholder/30/30" alt="Instagram">
+                    <img src="images/instagram.png" alt="Instagram">
                 </a>
             </div>
         </div>
@@ -103,7 +127,7 @@
     </div>
 
     <footer>
-        <p>© 2024</p>
+        <p>© 2025</p>
     </footer>
 
 </body>
