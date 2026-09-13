@@ -1,0 +1,58 @@
+Sí. Si vas a usar **Copilot directamente sobre el PowerPoint actual**, conviene que el prompt le diga explícitamente que **no invente un nuevo roadmap**, sino que reorganice los elementos existentes y conserve nombres y fechas. Así reduces bastante las “creatividades” de Copilot.
+
+Puedes usar este prompt:
+
+> Rediseña esta diapositiva manteniendo la información, capacidades, nombres y fechas que ya aparecen en ella. No inventes nuevas capacidades, fechas ni hitos.
+>
+> Quiero transformar la diapositiva actual en un **roadmap de habilitación de capacidades**, visualmente similar a un diagrama de Gantt, cuyo objetivo principal sea mostrar claramente **cuándo comienza el desarrollo de cada capacidad y, especialmente, desde qué momento esa capacidad queda disponible u operativa**.
+>
+> Mantén el eje temporal horizontal actual, de junio a julio, con los meses claramente visibles en la parte superior.
+>
+> Conserva los tres grandes grupos que aparecen actualmente:
+>
+> * **Onboarding digital**
+> * **Activación en línea**
+> * **Reducción de costos**
+>
+> Organiza cada grupo como un **swimlane o carril horizontal**. Dentro de cada carril, coloca las capacidades existentes en filas independientes. Usa los nombres que ya aparecen en la diapositiva, por ejemplo Biometría facial, CRC, Motor de riesgo, Nube, API Gateway, API interna, Cliente nuevo, Comprobantes, Rediferidos y Traslados. Si algún texto de la diapositiva no es legible, consérvalo sin reemplazarlo por información inventada.
+>
+> Para cada capacidad utiliza una barra horizontal con **dos estados visuales claramente diferentes**:
+>
+> **1. Implementación / desarrollo:** desde el momento en que comienza el trabajo sobre la capacidad hasta su entrada en operación.
+>
+> **2. Capacidad disponible / en operación:** desde el momento en que la capacidad entra en servicio hasta el final del horizonte del roadmap.
+>
+> Coloca un **diamante o marcador vertical en el punto exacto de transición entre desarrollo y operación**, de manera que sea inmediatamente visible el mes en el cual empieza a estar disponible cada capacidad.
+>
+> Cuando exista una dependencia evidente entre capacidades, represéntala mediante una flecha discreta entre el hito de una capacidad y el inicio de la siguiente. No inventes dependencias que no puedan deducirse de la diapositiva original.
+>
+> Mantén y destaca los hitos existentes, especialmente **“Producto mínimo viable 1”**, mediante una línea vertical discontinua que atraviese el roadmap. Los hitos generales del proyecto deben distinguirse de los hitos individuales de cada capacidad.
+>
+> Usa una codificación visual sencilla:
+>
+> * Azul: Onboarding digital.
+> * Morado: Activación en línea.
+> * Verde: Reducción de costos.
+> * Tono claro: implementación/desarrollo.
+> * Tono más intenso: capacidad disponible/en operación.
+> * Diamante: inicio de operación o MVP.
+> * Flecha fina: dependencia.
+> * Línea vertical discontinua: hito general del proyecto.
+>
+> Añade en la parte inferior una pequeña leyenda con: **Implementación / desarrollo | Disponible / en operación | Hito | Dependencia**.
+>
+> Reduce el uso de ilustraciones decorativas grandes. Puedes conservar iconos pequeños para identificar las capacidades, pero la información temporal debe ser el elemento visual dominante.
+>
+> Utiliza un diseño ejecutivo, limpio y minimalista, adecuado para una presentación corporativa. Evita exceso de texto, bordes gruesos, sombras y elementos decorativos innecesarios.
+>
+> Como título utiliza:
+> **Roadmap de habilitación de capacidades**
+>
+> Y como subtítulo:
+> **Evolución desde la implementación hasta la entrada en operación**
+>
+> **Prioridad visual:** al observar la diapositiva durante 5 segundos debe ser posible identificar qué capacidades se desarrollan primero, cuándo entra en operación cada una, cuáles ya están disponibles y qué capacidades habilitan a otras.
+>
+> **Importante:** modifica y reorganiza los objetos de la diapositiva existente siempre que sea posible. No conviertas toda la diapositiva en una única imagen, porque necesito poder editar posteriormente en PowerPoint las barras, textos, fechas, iconos y marcadores.
+
+La **última instrucción es especialmente importante** con Copilot: si solo le pides “crear una diapositiva similar”, puede devolverte algo visualmente bonito pero mucho menos editable. Para tu caso, yo trabajaría sobre el **PPT original y no sobre la fotografía**, porque Copilot podrá aprovechar los textos y objetos existentes y habrá menos riesgo de interpretar mal fechas o nombres.
