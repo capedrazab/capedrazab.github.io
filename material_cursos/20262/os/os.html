@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teaching - Courses</title>
+
     <style>
-      body {
+        body {
             font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
             background-color: #f5f5f7;
             color: #1d1d1f;
@@ -13,6 +14,7 @@
             padding: 20px;
             text-align: center;
         }
+
         .topnav {
             display: flex;
             justify-content: center;  /* Centers the navigation items */
@@ -21,6 +23,7 @@
             padding: 10px 0;
             background-color: #f8f8f8; /* Light gray Apple-style */
         }
+
         .topnav a {
             float: left;
             display: block;
@@ -30,10 +33,12 @@
             text-decoration: none;
             font-size: 14px;
         }
+
         .topnav a.active {
             font-weight: bold;
             color: #000;
         }
+
         .container {
             max-width: 800px;
             margin: 40px auto;
@@ -43,51 +48,141 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: left;  /* Ensures left alignment */
         }
+
         h4 {
             font-size: 20px;
             font-weight: 600;
             color: #222;
             margin-bottom: 10px;
         }
+
         p {
             font-size: 14px;
             color: #555;
             line-height: 1.6;
         }
+
         a {
             color: #007aff;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
+        }
+
+        .course-list {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            column-gap: 30px;
+            row-gap: 12px;
+            align-items: center;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .course-section {
+            margin-top: 24px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        .course-date {
+            color: #777;
+            margin-left: 8px;
         }
     </style>
 </head>
 
 <body>
+
     <div class="topnav">
         <a href="https://capedrazab.github.io/index.html">Home</a>
         <a href="https://capedrazab.github.io/investigacion.html">Research</a>
         <a class="active" href="https://capedrazab.github.io/docencia.html">Teaching</a>
         <a href="https://capedrazab.github.io/proyectos.html">Projects</a>
     </div>
-    <div class="container">
-        <h4>Operating Systems</h4>
-        <p>Contenido y normativa <a href="os_contenido.pdf"> pdf</a></p>
-        <p>Introducción y conceptos fundamentales<a href="1-1 Introduccion y Conceptos Fundamentales.pdf">pdf</a></p>
-        <p>Estructura de los sistemas operativos <a href="1-2 Estructura de los sistemas operativos.pdf">pdf</a></p>
-        <p>Scheduling <a href="scheduling.pdf"> - pdf</a></p>
-        <p>Memoria <a href="memoria.pdf"> - pdf</a></p>
-        <p>Almacenamiento masivo <a href="almacenamientoMasivo.pdf"> - pdf</a></p>
 
-        <p>Práctica 1 <a href="practica1.pdf"> pdf </a>Entrega: 15/10/2026</p>
-        <!-- <p>Práctica 2 <a href="practica2.pdf"> pdf </a>Entrega: 14/05/2026</p> --> 
-        <!-- <p>Práctica 2 <a href="practica2.pdf"> pdf</a></p>
-        <p>Práctica 2 <a href="guia_mutex.pdf"> Taller +0.5 1er parcial</a></p> -->
-        <p>Carpeta compartida <a href="https://drive.google.com/drive/folders/1mQCY4wEFbriXDTOG7yArCtP6JqHJ3F0Y?usp=sharinggr"> Enlace</a></p>
-        <p>Videos de curso anterior <a href="https://drive.google.com/drive/folders/1bO5EsHhm87C1Nfj06oWv0obIVZ5jOMK_?usp=sharing">Enlace</a> </p>
-        <!-- <p>2025-1 <a href="material_cursos/20251/os/os_normativa.pdf">Normativa</a> - Undergraduate</p> -->
- 
+    <div class="container">
+
+        <h4>Operating Systems</h4>
+
+        <div class="course-list">
+
+            <span>Contenido y normativa</span>
+            <a href="os_contenido.pdf">PDF</a>
+
+            <span>Introducción y conceptos fundamentales</span>
+            <a href="1-1 Introduccion y Conceptos Fundamentales.pdf">PDF</a>
+
+            <span>Estructura de los sistemas operativos</span>
+            <a href="1-2 Estructura de los sistemas operativos.pdf">PDF</a>
+
+            <span>Scheduling</span>
+            <a href="scheduling.pdf">PDF</a>
+
+            <span>Memoria</span>
+            <a href="memoria.pdf">PDF</a>
+
+            <span>Almacenamiento masivo</span>
+            <a href="almacenamientoMasivo.pdf">PDF</a>
+
+        </div>
+
+        <div class="course-section">
+
+            <div class="course-list">
+
+                <span>
+                    Práctica 1
+                    <span class="course-date">Entrega: 15/10/2026</span>
+                </span>
+
+                <a href="practica1.pdf">PDF</a>
+
+                <!--
+                <span>
+                    Práctica 2
+                    <span class="course-date">Entrega: 14/05/2026</span>
+                </span>
+                <a href="practica2.pdf">PDF</a>
+                -->
+
+                <!--
+                <span>Práctica 2</span>
+                <a href="practica2.pdf">PDF</a>
+
+                <span>Práctica 2</span>
+                <a href="guia_mutex.pdf">Taller +0.5 1er parcial</a>
+                -->
+
+            </div>
+
+        </div>
+
+        <div class="course-section">
+
+            <div class="course-list">
+
+                <span>Carpeta compartida</span>
+                <a href="https://drive.google.com/drive/folders/1mQCY4wEFbriXDTOG7yArCtP6JqHJ3F0Y?usp=sharinggr">Enlace</a>
+
+                <span>Videos de curso anterior</span>
+                <a href="https://drive.google.com/drive/folders/1bO5EsHhm87C1Nfj06oWv0obIVZ5jOMK_?usp=sharing">Enlace</a>
+
+            </div>
+
+        </div>
+
+        <!--
+        <p>
+            2025-1
+            <a href="material_cursos/20251/os/os_normativa.pdf">Normativa</a>
+            - Undergraduate
+        </p>
+        -->
+
     </div>
+
 </body>
 </html>
